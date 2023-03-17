@@ -1,0 +1,101 @@
+1..Input Description:
+A single line contains a string.
+
+Output Description:
+Print the characters in a string separated by comma.
+
+Sample Input :
+guvi
+Sample Output :
+g,u,v,i
+var a = userInput[0].split("")
+  console.log(a.toString())
+  
+  
+2..Input Description:
+A single line contains a string.
+
+Output Description:
+Print the characters in a string separated by line.
+
+Sample Input :
+guvigeek
+Sample Output :
+g
+u
+v
+i
+g
+e
+e
+k
+
+
+var a = userInput[0]
+ 
+ for (i=0;i<a.length;i++)
+ console.log(a[i])
+});
+
+
+3.  Input Description:
+A single line contains a string.
+
+Output Description:
+Print the characters in a string separated by space.
+
+Sample Input :
+guvi
+Sample Output :
+g u v i
+
+var a= userInput[0].split("")
+  console.log(a.join(" "));
+
+ 4..Input Description:
+First-line indicates two integers separated by space. Second-line indicates three integers separated by space. Third-line indicates three integers separated by space
+
+Output Description:
+Print the input in the same format.
+
+Sample Input :
+2 5
+2 5 6
+2 4 5
+Sample Output :
+2 5
+2 5 6
+2 4 5
+
+var a = userInput[0].split("")
+   var b = userInput[1].split("")
+var c = userInput[2].split("")
+
+console.log(a.join(""));
+console.log(b.join(""));
+console.log(c.join(""));
+
+
+5...Write a code to get the input in the given format and print the output in the given format
+
+Input Description:
+Three integers are given in line by line.
+
+Output Description:
+Print the integers in a single line separate by space.
+
+Sample Input :
+2
+4
+5
+Sample Output :
+2 4 5
+
+
+var a = userInput[0]
+  var b = userInput[1]
+  var c= userInput[2]
+  console.log(a+" "+b+" "+c)
+
+  
+
